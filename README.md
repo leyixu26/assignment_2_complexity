@@ -171,8 +171,6 @@ Downloads real market data and generates synthetic data for testing.
 - `market_data.csv`: Market data file (timestamp, symbol, price)
 - `performance_plots.png`: Runtime and memory usage plots
 - `complexity_report.md`: Detailed complexity analysis report
-- `price_series.png`: Full price series visualization
-- `price_series_zoomed.png`: Zoomed views of price data
 
 ## Performance Requirements
 
@@ -201,8 +199,6 @@ assignment_2/
 ├── market_data.csv         # Market data (generated)
 ├── complexity_report.md    # Analysis report (generated)
 ├── performance_plots.png   # Performance charts (generated)
-├── price_series.png        # Price visualization (generated)
-├── price_series_zoomed.png # Zoomed price chart (generated)
 └── tests/
     └── test_strategies.py  # Unit tests
 ```
